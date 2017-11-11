@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
+    <!-- <link rel="stylesheet" href="devicon.css"> -->
+    <!-- <link rel="stylesheet" href="devicon-colors.css"> -->
 </head>
+
 <body>
 
 
     <nav id="navbar">
         <div class="navbar">
-            <a href="#" class="navbar-header">Top</a>
+            <a id="top-link" href="#" class="navbar-header">Top</a>
             <div class="navbar-button-wrapper">
-                <a href="#About" class="navbar-button">About</a>
-                <a href="#Skills" class="navbar-button">Skills</a>
-                <a href="#Portfolio" class="navbar-button">Portfolio</a>
-                <a href="#Contact" class="navbar-button">Contact</a>
+                <a id="about-link" href="#About" class="navbar-button">About</a>
+                <a id="skills-link" href="#Skills" class="navbar-button">Skills</a>
+                <a id="portfolio-link" href="#Portfolio" class="navbar-button">Portfolio</a>
+                <a id="contact-link" href="#Contact" class="navbar-button">Contact</a>
             </div>
         </div>
     </nav>
-    
 
-    <div  class="content-wrapper" id="landing">
+
+    <div class="content-wrapper" id="landing">
         Landing
     </div>
 
@@ -40,7 +45,78 @@
 
 
     <div class="content-wrapper" id="Skills">
-        Skills
+        Skills:
+        <div class="icon-wrapper">
+            <div class="icon-row">
+                <div class="icon-box">
+                    <i class="devicon-angularjs-plain colored"></i>
+                    <p>AngularJS</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-github-plain colored"></i>
+                    <p>Github</p>
+                </div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-box">
+                    <i class="devicon-gulp-plain colored"></i>
+                    <p>Gulp</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-heroku-plain colored"></i>
+                    <p>Heroku</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript ES6</p>
+                </div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-box">
+                    <i class="devicon-jquery-plain colored"></i>
+                    <p>JQuery</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <p>NodeJS</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <p>PostgresQL</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-react-original colored"></i>
+                    <p>ReactJS</p>
+                </div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-box">
+                    <i class="devicon-sass-original colored"></i>
+                    <p>Sass / SCSS</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-slack-plain colored"></i>
+                    <p>Slack</p>
+                </div>
+                <div class="icon-box">
+                    <i class="devicon-visualstudio-plain colored"></i>
+                    <p>VSCode</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -64,8 +140,10 @@
     </div>
 
 
-    <!-- <script src="./src/index.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./src/index.js"></script>
 
 
 </body>
+
 </html>
