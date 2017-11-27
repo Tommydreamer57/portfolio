@@ -1,5 +1,5 @@
 $('#top-link').click(() => {
-    $('html, body').animate({scrollTop: 0}, 800)
+    $('html, body').animate({ scrollTop: 0 }, 800)
 })
 
 $('#about-link').click(() => {
@@ -16,4 +16,8 @@ $('#portfolio-link').click(() => {
 
 $('#contact-link').click(() => {
     $('html, body').animate({ scrollTop: $('#Contact').offset().top }, 800)
+})
+
+$('#bottom-link').click(() => {
+    $('html, body').animate({ scrollTop: $(document).height() }, 800)
 })
